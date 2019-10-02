@@ -1,0 +1,193 @@
+/* ------------ */
+/* -- Global -- */
+/* ------------ */
+
+.section {
+	padding: 10px 0;
+}
+
+input {
+	background-image: url("../img/search-icon.png");
+	background-size: 32px 32px;
+	background-repeat: no-repeat;
+	background-position: right top;
+	border: 1px solid #666;
+	color: #000;
+	border-radius: 5px;
+	padding: 6px 35px 6px 5px;
+	width: 100%;
+	max-width: 320px;
+	display: block;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+h2 {
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.content_block p:last-child {
+	padding: 0;
+}
+
+@media (min-width: 768px) {
+	h1 {
+		font-size: 28px;
+		text-align: left;
+	}	
+
+	h2 {
+		text-align: left;
+	}
+
+	p {
+		text-align: left;
+	}
+
+	input {
+		margin: 0;
+	}
+}
+
+@media (min-width: 992px) {
+	h1 {
+		font-size: 32px;
+		text-align: left;
+	}	
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 36px;
+		text-align: left;
+	}
+}
+
+/* ------------ */
+/* ------------ */
+/* ------------ */
+
+/* ------------ */
+/* -- Header -- */
+/* ------------ */
+
+header {
+	border-bottom: 1px solid #666;
+	padding: 20px 0;
+}
+
+/* ------------ */
+/* ------------ */
+/* ------------ */
+
+/* ------------- */
+/* -- Content -- */
+/* ------------- */
+
+#content_section {
+	box-shadow: 1px 1px 10px 2px #000;
+}
+
+.content_block {
+	padding: 20px 0;
+}
+
+.content_border {
+	border-bottom: 1px solid #666;
+}
+
+.btn {
+	width: 100%;
+	max-width: 320px;
+	margin: 0 auto 10px auto;
+	display: block;
+}
+
+.content_image {
+	width: 100%;
+	height: auto;
+	max-width: 320px;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+@media (min-width: 768px) {
+	.btn {
+		margin: 0 0 10px 0;	
+	}	.
+
+	.content_image {
+		margin: 0;
+	}
+}
+
+.text_border_container {
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+	padding: 5px 0;
+	box-shadow: 1px 1px 5px 2px #000;
+}
+
+.text_border {
+	padding: 0 5px;
+}
+
+.text_border p {
+	border-bottom: 1px solid #666;
+	margin: 0 0 5px 0;
+	padding: 0 0 3px 0 !important;
+}
+
+.text_border:last-child p {
+	border-bottom: none;
+	margin: 0;
+	padding: 0 !important;
+}
+
+/* ------------- */
+/* ------------- */
+/* ------------- */
+
+/* ------------ */
+/* -- Footer -- */
+/* ------------ */
+
+.footer_logo {
+	width: 100px;
+	height: auto;
+	vertical-align: top;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+@media (min-width: 768px) {
+	.footer_logo {
+		margin: 0;
+	}
+}
+
+footer {
+	margin: 10px 0 0 0;
+}
+
+footer p {
+	vertical-align: middle;
+}
+
+/* ------------ */
+/* ------------ */
+/* ------------ */
